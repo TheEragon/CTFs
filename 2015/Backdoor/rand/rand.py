@@ -17,6 +17,6 @@ plt.plot(poss.keys(), poss.values(), "ro")
 plt.show()
 
 flag = ""
-for i in range(999,1064):
+for i in range(999,1063):
     flag += "%x" % (len(set(poss[i])) - 1)
 print flag
